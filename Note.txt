@@ -60,3 +60,12 @@ Hello from conindex
 
 
 C:\react\coindex-cli>npm i commander inquirer configstore axios colors
+
+C:\react\coindex-cli>coindex key
+C:\react\coindex-cli>coindex -h
+C:\react\coindex-cli>coindex -V
+
+
+
+
+
