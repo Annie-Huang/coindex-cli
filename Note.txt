@@ -67,7 +67,7 @@ C:\react\coindex-cli>coindex -V
 
 C:\react\coindex-cli>coindex key -h
 C:\react\coindex-cli>coindex key set
-
+C:\react\coindex-cli>coindex key remove
 
 
 
