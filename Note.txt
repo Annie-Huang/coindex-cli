@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=-6OAHsde15E         Node.js CLI For Cryptocurrency Prices
+https://github.com/bradtraversy/coindex-cli
+
+https://github.com/Annie-Huang/coindex-cli
+
+=======================================================
