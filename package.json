@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/Annie-Huang/coindex-cli/issues"
   },
-  "homepage": "https://github.com/Annie-Huang/coindex-cli#readme"
+  "homepage": "https://github.com/Annie-Huang/coindex-cli#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.1.0"
+  }
 }

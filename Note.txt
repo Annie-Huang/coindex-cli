@@ -4,7 +4,7 @@ https://github.com/bradtraversy/coindex-cli
 https://github.com/Annie-Huang/coindex-cli
 
 https://docs.npmjs.com/files/package.json#bin
-
+https://medium.com/@alexishevia/the-magic-behind-npm-link-d94dcb3a81af
 =======================================================
 
 C:\react\coindex-cli>npm init -y
@@ -44,4 +44,13 @@ found 0 vulnerabilities
 C:\Users\Annie\AppData\Roaming\npm\coindex -> C:\Users\Annie\AppData\Roaming\npm\node_modules\coindex\bin\coindex.js    <<< We want the link to be linke this.
 C:\Users\Annie\AppData\Roaming\npm\node_modules\coindex -> C:\react\coindex-cli                                             and this...
 
+------------
 
+C:\react\coindex-cli>coindex
+Hello from conindex
+
+D:\>coindex             <<< Run in any directory and it will work after you make the symbolic link (globally accessiable in your PC)
+Hello from conindex
+
+
+C:\react\coindex-cli>npm i commander inquirer configstore axios colors
