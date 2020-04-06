@@ -3,8 +3,14 @@ https://github.com/bradtraversy/coindex-cli
 
 https://github.com/Annie-Huang/coindex-cli
 
+https://nomics.com/         << Click API Key to get the key. then Send me my free API key
+https://p.nomics.com/cryptocurrency-bitcoin-api         << API key: b0e95a62037510760a9b1df0c2d70322
+
 https://docs.npmjs.com/files/package.json#bin
 https://medium.com/@alexishevia/the-magic-behind-npm-link-d94dcb3a81af
+https://www.npmjs.com/package/commander
+https://www.npmjs.com/package/inquirer
+https://www.npmjs.com/package/configstore
 =======================================================
 
 C:\react\coindex-cli>npm init -y
