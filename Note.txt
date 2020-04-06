@@ -9,3 +9,39 @@ https://docs.npmjs.com/files/package.json#bin
 
 C:\react\coindex-cli>npm init -y
 
+Need to add this as the first line of coindex.js:
+#!/usr/bin/env node
+
+-------------
+
+C:\react\coindex-cli>npm link
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN coindex-cli@1.0.0 No description
+
+up to date in 1.171s
+found 0 vulnerabilities
+
+C:\Users\Annie\AppData\Roaming\npm\coindex-cli -> C:\Users\Annie\AppData\Roaming\npm\node_modules\coindex-cli\bin\coindex.js
+C:\Users\Annie\AppData\Roaming\npm\node_modules\coindex-cli -> C:\react\coindex-cli
+
+-------------
+
+C:\react\coindex-cli>npm unlink
+removed 1 package in 0.045s
+
+-------------
+
+Update package.json's name to  "name": "coindex",
+
+
+Then:
+C:\react\coindex-cli>npm link
+npm WARN coindex@1.0.0 No description
+
+up to date in 1.124s
+found 0 vulnerabilities
+
+C:\Users\Annie\AppData\Roaming\npm\coindex -> C:\Users\Annie\AppData\Roaming\npm\node_modules\coindex\bin\coindex.js    <<< We want the link to be linke this.
+C:\Users\Annie\AppData\Roaming\npm\node_modules\coindex -> C:\react\coindex-cli                                             and this...
+
+
