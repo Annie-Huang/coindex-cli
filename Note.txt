@@ -4,3 +4,6 @@ https://github.com/bradtraversy/coindex-cli
 https://github.com/Annie-Huang/coindex-cli
 
 =======================================================
+
+C:\react\coindex-cli>npm init -y
+
